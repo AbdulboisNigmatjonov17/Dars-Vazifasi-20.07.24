@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+#all{
+    background-color: white;
+}
+.ota{
+    background-color: aquamarine;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.bola{
+    font-size: 50px;
+    display: flex;
+    padding: 20px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 70px;
+    padding: 50px 20px 50px 20px;
+}
+.img:hover{
+    border: 5px solid rgb(0, 0, 0);
+}
+.tg:hover{
+    background-color: rgb(101, 101, 239);
+}
+.ins:hover{
+    background-color: rgb(247, 121, 188);
+}
+.in:hover{
+    background-color: rgb(68, 71, 242);
+}
+.ytb:hover{
+    background-color: rgb(232, 137, 137);
+}
+.tg{
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    font-size: 150px;
+    background-color: rgb(194, 248, 230);
+    margin: 50px 20px 80px 20px;
+    border-radius: 15px;
+}
+.ins{
+    padding: 30px 20px 30px 20px;    
+    text-align: center;
+    font-size: 150px;
+    background-color: rgb(194, 248, 230);
+    margin: 50px 20px 80px 20px;
+    border-radius: 15px;
+}
+.in{
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    font-size: 150px;
+    background-color: rgb(194, 248, 230);
+    margin: 50px 20px 80px 20px;
+    border-radius: 15px;
+}
+.ytb{
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    font-size: 150px;
+    background-color: rgb(194, 248, 230);
+    margin: 50px 20px 80px 20px;
+    border-radius: 15px;
+}
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th {
+    padding: 15px 160px 20px 20px;
+    text-align: left;
+    border-bottom: 2px solid rgb(17, 17, 17);
+    color: rgb(16, 16, 16);
+    border-right: none;
+    border-left: none;
+}
+td {
+    padding: 15px 150px 15px 15px;
+    color: rgb(0, 0, 0);
+    border-right: none;
+    border-left: none;
+}
+tbody tr:hover {
+    background-color: rgb(0, 47, 255);
+    color: white;
+}
